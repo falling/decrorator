@@ -1,0 +1,1 @@
+decrorator设计模式
