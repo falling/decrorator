@@ -1,1 +1,1 @@
-decrorator设计模式
+decrorator璁捐妯″紡
