@@ -1,7 +1,5 @@
 //业务操作
 abstract class Stream {
-
-
     public abstract char read(int number);
 
     public abstract void seek(int position);
@@ -75,7 +73,7 @@ class MemoryStream extends Stream {
 }
 
 //继承：接口协议
-abstract  DecroratorStream extends Stream{
+abstract class DecroratorStream extends Stream{
     //组合：复用实现
     protected Stream s;// s=new FileStream(); s=new NetworkStream(); s=new MemoryStream();
 
